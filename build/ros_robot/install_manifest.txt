@@ -1,0 +1,15 @@
+/home/whx/ros_sw2/install/ros_robot/share/ament_index/resource_index/package_run_dependencies/ros_robot
+/home/whx/ros_sw2/install/ros_robot/share/ament_index/resource_index/parent_prefix_path/ros_robot
+/home/whx/ros_sw2/install/ros_robot/share/ros_robot/environment/ament_prefix_path.sh
+/home/whx/ros_sw2/install/ros_robot/share/ros_robot/environment/ament_prefix_path.dsv
+/home/whx/ros_sw2/install/ros_robot/share/ros_robot/environment/path.sh
+/home/whx/ros_sw2/install/ros_robot/share/ros_robot/environment/path.dsv
+/home/whx/ros_sw2/install/ros_robot/share/ros_robot/local_setup.bash
+/home/whx/ros_sw2/install/ros_robot/share/ros_robot/local_setup.sh
+/home/whx/ros_sw2/install/ros_robot/share/ros_robot/local_setup.zsh
+/home/whx/ros_sw2/install/ros_robot/share/ros_robot/local_setup.dsv
+/home/whx/ros_sw2/install/ros_robot/share/ros_robot/package.dsv
+/home/whx/ros_sw2/install/ros_robot/share/ament_index/resource_index/packages/ros_robot
+/home/whx/ros_sw2/install/ros_robot/share/ros_robot/cmake/ros_robotConfig.cmake
+/home/whx/ros_sw2/install/ros_robot/share/ros_robot/cmake/ros_robotConfig-version.cmake
+/home/whx/ros_sw2/install/ros_robot/share/ros_robot/package.xml

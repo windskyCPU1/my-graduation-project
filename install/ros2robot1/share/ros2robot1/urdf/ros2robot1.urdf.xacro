@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot
+
+  name="ros2robot1" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.0069002893242007 0.00784427347124446 0.416102817668211"
+        rpy="0 0 0" />
+      <mass
+        value="0.932574836905931" />
+      <inertia
+        ixx="0.00432823959779328"
+        ixy="3.24563111731778E-08"
+        ixz="5.87038355086728E-07"
+        iyy="0.00372950978514817"
+        iyz="3.37969968362297E-07"
+        izz="0.00801358603248549" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/whx/ros_sw2/src/ros2robot1/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/whx/ros_sw2/src/ros2robot1/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="wheel1_Link">
+    <inertial>
+      <origin
+        xyz="3.05311331771918E-15 0.0184994302776078 -4.71844785465692E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.0419122672508683" />
+      <inertia
+        ixx="3.67888531973485E-06"
+        ixy="2.27656000909701E-23"
+        ixz="1.6940658945086E-21"
+        iyy="3.56689493619719E-06"
+        iyz="9.27440022975379E-23"
+        izz="3.67888531973487E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/whx/ros_sw2/src/ros2robot1/meshes/wheel1_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/whx/ros_sw2/src/ros2robot1/meshes/wheel1_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel_joint"
+    type="continuous">
+    <origin
+      xyz="0.114588816225523 -0.150370778985184 0.368792818300149"
+      rpy="0 0.78539816339745 -1.5707963267949" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel1_Link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="wheel2_Link">
+    <inertial>
+      <origin
+        xyz="-3.60822483003176E-15 0.0184994300553797 4.30211422042248E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.0419122672532183" />
+      <inertia
+        ixx="3.6788853194624E-06"
+        ixy="-5.32795923526061E-22"
+        ixz="1.90582413132218E-21"
+        iyy="3.56689493665104E-06"
+        iyz="1.71967331004315E-21"
+        izz="3.67888531946241E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/whx/ros_sw2/src/ros2robot1/meshes/wheel2_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/whx/ros_sw2/src/ros2robot1/meshes/wheel2_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel2_joint"
+    type="continuous">
+    <origin
+      xyz="0.114588816225524 0.157657007256141 0.358362405292802"
+      rpy="0 0.78539816339745 -1.5707963267949" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel2_Link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="wheel3_Link">
+    <inertial>
+      <origin
+        xyz="5.10702591327572E-15 -0.0184994296678926 1.88737914186277E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.0419122672587121" />
+      <inertia
+        ixx="3.67888532130945E-06"
+        ixy="-1.12051351455379E-21"
+        ixz="7.72917564369549E-21"
+        iyy="3.56689493921346E-06"
+        iyz="-1.76654110958813E-21"
+        izz="3.67888532130946E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/whx/ros_sw2/src/ros2robot1/meshes/wheel3_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/whx/ros_sw2/src/ros2robot1/meshes/wheel3_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel3_joint"
+    type="continuous">
+    <origin
+      xyz="-0.128011183774476 0.156342652251542 0.357383247853887"
+      rpy="0 0.78539816339745 -1.5707963267949" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel3_Link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="wheel4_Link">
+    <inertial>
+      <origin
+        xyz="-5.80091530366644E-15 -0.0185005701469511 3.83026943495679E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.0419122672520917" />
+      <inertia
+        ixx="3.67888531902309E-06"
+        ixy="-2.03204818097582E-21"
+        ixz="-2.85873619698326E-21"
+        iyy="3.56689493673299E-06"
+        iyz="2.61031554853431E-21"
+        izz="3.67888531902312E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/whx/ros_sw2/src/ros2robot1/meshes/wheel4_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/whx/ros_sw2/src/ros2robot1/meshes/wheel4_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel4_joint"
+    type="continuous">
+    <origin
+      xyz="-0.128061894611928 -0.155075316068253 0.379553273477049"
+      rpy="0 0.78539816339745 -1.5707963267949" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel4_Link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="Y1_Link">
+    <inertial>
+      <origin
+        xyz="0.0633767697347809 0.0124250938337351 -0.000640164133418148"
+        rpy="0 0 0" />
+      <mass
+        value="0.132728550953148" />
+      <inertia
+        ixx="5.14119353228237E-05"
+        ixy="-1.21760916979086E-05"
+        ixz="-1.08722965616957E-06"
+        iyy="7.55947829903861E-05"
+        iyz="-1.66382369211435E-06"
+        izz="6.25773621051895E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/whx/ros_sw2/src/ros2robot1/meshes/Y1_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.964705882352941 0.964705882352941 0.952941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/whx/ros_sw2/src/ros2robot1/meshes/Y1_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Y1_joint"
+    type="fixed">
+    <origin
+      xyz="-0.00479829011663419 0.0079437738084169 0.471000000000021"
+      rpy="3.14159265358979 -1.5707963267949 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Y1_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="Y2_Link">
+    <inertial>
+      <origin
+        xyz="0.0106879615817914 -0.00128783807344476 0.0871699660483799"
+        rpy="0 0 0" />
+      <mass
+        value="0.0088411460402411" />
+      <inertia
+        ixx="2.35729770766075E-06"
+        ixy="7.16401837611679E-08"
+        ixz="-3.0153012368499E-12"
+        iyy="2.08424977771369E-06"
+        iyz="1.28648128458762E-11"
+        izz="1.32086041539597E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/whx/ros_sw2/src/ros2robot1/meshes/Y2_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.964705882352941 0.964705882352941 0.952941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/whx/ros_sw2/src/ros2robot1/meshes/Y2_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Y2_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="-1.5707963267949 0 -1.5707963267949" />
+    <parent
+      link="Y1_Link" />
+    <child
+      link="Y2_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+
+  <xacro:macro name="fishbot_ros2_control" >
+    <ros2_control name="GazeboSystem" type="system">
+     <hardware>
+        <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+     </hardware> 
+     
+  
+  
+  <joint name="wheel_joint">
+    <command_interface name="velocity" />
+    <state_interface name="position" />
+    <state_interface name="velocity" />
+  </joint>
+  <joint name="wheel3_joint">
+    <command_interface name="velocity" />
+    <state_interface name="position" />
+    <state_interface name="velocity" />
+  </joint>
+  
+  
+  <joint name="wheel2_joint">
+    <command_interface name="velocity" />
+    <state_interface name="position" />
+    <state_interface name="velocity" />
+  </joint>
+  <joint name="wheel4_joint">
+    <command_interface name="velocity" />
+    <state_interface name="position" />
+    <state_interface name="velocity" />
+  </joint>
+  </ros2_control>
+
+   <gazebo>
+     <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+        <robot_param>robot_description</robot_param> 
+        <robot_param_node>robot_state_publisher</robot_param_node> 
+        <parameters>$(find ros2robot1)/config/ros2_controllers.yaml</parameters>
+     </plugin>
+   </gazebo>
+  </xacro:macro>
+  <xacro:fishbot_ros2_control />
+  <gazebo reference="wheel_Link">
+  <mu1>1.0</mu1>      <!-- 纵向摩擦系数 -->
+  <mu2>0.5</mu2>      <!-- 侧向摩擦系数：减小以允许侧滑，帮助转弯 -->
+  <kp>1e5</kp>        <!-- 接触刚度 -->
+  <kd>1e3</kd>        <!-- 接触阻尼 -->
+  <material>Gazebo/Wheel</material>
+</gazebo>
+<gazebo reference="wheel2_Link">
+  <mu1>1.0</mu1>      <!-- 纵向摩擦系数 -->
+  <mu2>0.5</mu2>      <!-- 侧向摩擦系数：减小以允许侧滑，帮助转弯 -->
+  <kp>1e5</kp>        <!-- 接触刚度 -->
+  <kd>1e3</kd>        <!-- 接触阻尼 -->
+  <material>Gazebo/Wheel</material>
+</gazebo>
+<gazebo reference="wheel3_Link">
+  <mu1>1.0</mu1>      <!-- 纵向摩擦系数 -->
+  <mu2>0.5</mu2>      <!-- 侧向摩擦系数：减小以允许侧滑，帮助转弯 -->
+  <kp>1e5</kp>        <!-- 接触刚度 -->
+  <kd>1e3</kd>        <!-- 接触阻尼 -->
+  <material>Gazebo/Wheel</material>
+
+</gazebo>
+<gazebo reference="wheel4_Link">
+  <mu1>1.0</mu1>      <!-- 纵向摩擦系数 -->
+  <mu2>0.5</mu2>      <!-- 侧向摩擦系数：减小以允许侧滑，帮助转弯 -->
+  <kp>1e5</kp>        <!-- 接触刚度 -->
+  <kd>1e3</kd>        <!-- 接触阻尼 -->
+  <material>Gazebo/Wheel</material>
+</gazebo>
+</robot>
+
+
+
+  

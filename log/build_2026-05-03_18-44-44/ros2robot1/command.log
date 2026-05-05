@@ -1,0 +1,6 @@
+Invoking command in '/home/whx/ros_sw2/build/ros2robot1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/whx/ros_sw2/src/ros2robot1 -DCMAKE_INSTALL_PREFIX=/home/whx/ros_sw2/install/ros2robot1
+Invoked command in '/home/whx/ros_sw2/build/ros2robot1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/whx/ros_sw2/src/ros2robot1 -DCMAKE_INSTALL_PREFIX=/home/whx/ros_sw2/install/ros2robot1
+Invoking command in '/home/whx/ros_sw2/build/ros2robot1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/whx/ros_sw2/build/ros2robot1 -- -j20 -l20
+Invoked command in '/home/whx/ros_sw2/build/ros2robot1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/whx/ros_sw2/build/ros2robot1 -- -j20 -l20
+Invoking command in '/home/whx/ros_sw2/build/ros2robot1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/whx/ros_sw2/build/ros2robot1
+Invoked command in '/home/whx/ros_sw2/build/ros2robot1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/whx/ros_sw2/build/ros2robot1

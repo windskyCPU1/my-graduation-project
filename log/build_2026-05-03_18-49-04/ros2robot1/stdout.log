@@ -1,0 +1,37 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/whx/ros_sw2/build/ros2robot1
+-- Install configuration: ""
+-- Installing: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/package.xml
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/launch
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/launch/display.launch
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/launch/gazebo.launch
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/launch/gazebo.launch.py
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/urdf
+-- Installing: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/urdf/ros2robot1.urdf.xacro
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/urdf/ros2robot1.csv
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/world
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/world/custom_room.world
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/world/room
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/world/room/model.config
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/world/room/model.sdf
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/config
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/config/ros2_controllers.yaml
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/package.xml
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ament_index/resource_index/package_run_dependencies/ros2robot1
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ament_index/resource_index/parent_prefix_path/ros2robot1
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/environment/ament_prefix_path.sh
+-- Installing: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/environment/path.sh
+-- Installing: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/environment/path.dsv
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/local_setup.bash
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/local_setup.sh
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/local_setup.zsh
+-- Installing: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/local_setup.dsv
+-- Installing: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/package.dsv
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ament_index/resource_index/packages/ros2robot1
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/cmake/ros2robot1Config.cmake
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/cmake/ros2robot1Config-version.cmake
+-- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/package.xml

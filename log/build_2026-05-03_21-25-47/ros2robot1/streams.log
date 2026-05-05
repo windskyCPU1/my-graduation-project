@@ -1,0 +1,36 @@
+[0.007s] Invoking command in '/home/whx/ros_sw2/build/ros2robot1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/whx/ros_sw2/build/ros2robot1 -- -j20 -l20
+[0.026s] Invoked command in '/home/whx/ros_sw2/build/ros2robot1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/whx/ros_sw2/build/ros2robot1 -- -j20 -l20
+[0.029s] Invoking command in '/home/whx/ros_sw2/build/ros2robot1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/whx/ros_sw2/build/ros2robot1
+[0.033s] -- Install configuration: ""
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/package.xml
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/launch
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/launch/display.launch
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/launch/gazebo.launch
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/launch/gazebo.launch.py
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/urdf
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/urdf/ros2robot1.urdf.xacro
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/urdf/ros2robot1.csv
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/world
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/world/custom_room.world
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/world/room
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/world/room/model.config
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/world/room/model.sdf
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/config
+[0.033s] -- Installing: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/config/ros2_controllers.yaml
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/package.xml
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ament_index/resource_index/package_run_dependencies/ros2robot1
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ament_index/resource_index/parent_prefix_path/ros2robot1
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/environment/ament_prefix_path.sh
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/environment/ament_prefix_path.dsv
+[0.033s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/environment/path.sh
+[0.034s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/environment/path.dsv
+[0.034s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/local_setup.bash
+[0.034s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/local_setup.sh
+[0.034s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/local_setup.zsh
+[0.034s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/local_setup.dsv
+[0.034s] -- Installing: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/package.dsv
+[0.034s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ament_index/resource_index/packages/ros2robot1
+[0.034s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/cmake/ros2robot1Config.cmake
+[0.034s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/cmake/ros2robot1Config-version.cmake
+[0.034s] -- Up-to-date: /home/whx/ros_sw2/install/ros2robot1/share/ros2robot1/package.xml
+[0.036s] Invoked command in '/home/whx/ros_sw2/build/ros2robot1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/whx/ros_sw2/build/ros2robot1

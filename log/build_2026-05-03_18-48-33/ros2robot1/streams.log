@@ -1,0 +1,33 @@
+[0.007s] Invoking command in '/home/whx/ros_sw2/build/ros2robot1': /usr/bin/cmake --build /home/whx/ros_sw2/build/ros2robot1 -- -j20 -l20
+[0.019s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.091s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.119s] Error parsing '/home/whx/ros_sw2/src/ros2robot1/package.xml':
+[0.146s] Traceback (most recent call last):
+[0.146s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.146s]     main()
+[0.146s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.146s]     raise e
+[0.146s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.146s]     package = parse_package_string(
+[0.146s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 639, in parse_package_string
+[0.146s]     pkg.description = _get_node_value(_get_node(root, 'description', filename), allow_xml=True, apply_str=False)
+[0.146s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 800, in _get_node
+[0.146s]     raise InvalidPackage('The manifest must contain exactly one "%s" tag' % tagname, filename)
+[0.146s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/whx/ros_sw2/src/ros2robot1/package.xml':
+[0.146s] The manifest must contain exactly one "description" tag
+[0.154s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.154s]   execute_process(/usr/bin/python3
+[0.154s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.154s]   /home/whx/ros_sw2/src/ros2robot1/package.xml
+[0.154s]   /home/whx/ros_sw2/build/ros2robot1/ament_cmake_core/package.cmake) returned
+[0.154s]   error code 1
+[0.154s] Call Stack (most recent call first):
+[0.154s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.154s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.154s]   CMakeLists.txt:24 (ament_lint_auto_find_test_dependencies)
+[0.154s] 
+[0.154s] [0m
+[0.154s] -- Configuring incomplete, errors occurred!
+[0.154s] See also "/home/whx/ros_sw2/build/ros2robot1/CMakeFiles/CMakeOutput.log".
+[0.156s] gmake: *** [Makefile:226：cmake_check_build_system] 错误 1
+[0.157s] Invoked command in '/home/whx/ros_sw2/build/ros2robot1' returned '2': /usr/bin/cmake --build /home/whx/ros_sw2/build/ros2robot1 -- -j20 -l20
