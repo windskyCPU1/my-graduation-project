@@ -1,0 +1,26 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+    use_sim_time: true
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    diff_drive_controller:
+      type: diff_drive_controller/DiffDriveController
+
+diff_drive_controller:
+  ros__parameters:
+    left_wheel_names: ["wheel_joint", "wheel2_joint"]
+    right_wheel_names: ["wheel3_joint", "wheel4_joint"]
+    wheel_radius: 0.035
+    wheel_separation: 0.308
+    publish_rate: 50.0
+    odom_frame_id: odom
+    base_frame_id: base_footprint
+    cmd_vel_topic: "/cmd_vel" 
+    use_stamped_vel: false
+    remappings:
+       - "/diff_drive_controller/cmd_vel_unstamped:=/cmd_vel"
+
+joint_state_broadcaster:
+  ros__parameters:
+    use_sim_time: true

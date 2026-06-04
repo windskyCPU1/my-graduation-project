@@ -431,6 +431,8 @@
   <kd>1e3</kd>        <!-- 接触阻尼 -->
   <material>Gazebo/Wheel</material>
 </gazebo>
+<xacro:include filename="$(find ros2robot1)/urdf/gazebo_sensor_plugin.xacro" />
+    <xacro:gazebo_sensor_plugin  name="robot1"/>
 </robot>
 
 

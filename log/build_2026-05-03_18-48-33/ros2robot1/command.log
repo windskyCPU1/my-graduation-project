@@ -1,2 +1,0 @@
-Invoking command in '/home/whx/ros_sw2/build/ros2robot1': /usr/bin/cmake --build /home/whx/ros_sw2/build/ros2robot1 -- -j20 -l20
-Invoked command in '/home/whx/ros_sw2/build/ros2robot1' returned '2': /usr/bin/cmake --build /home/whx/ros_sw2/build/ros2robot1 -- -j20 -l20
